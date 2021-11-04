@@ -8,13 +8,20 @@
 
 import random
 
-
 deck = []
 for card in range(13):
     deck.append(card +1)
 
 random_eight = random.sample(deck, 8 )
-
+answers = []
 print(random_eight)
+for i in range(len(random_eight) -1):
+    if random_eight[i+1] > random_eight[i]:
+        answers.append('higher')
+    else: 
+        answers.append('lower')
+
+print(answers)
+
 
 #  turn the 11 12 13 in to jack queen king
