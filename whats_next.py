@@ -9,17 +9,12 @@
 import random
 
 
-dek = []
+deck = []
 for card in range(13):
-    dek.append(card +1)
+    deck.append(card +1)
 
-random_eight = []
+random_eight = random.sample(deck, 8 )
 
-for pick in range(8):
-    random_eight.append()
+print(random_eight)
 
-
-print(dek)
-
-
-
+#  turn the 11 12 13 in to jack queen king

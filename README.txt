@@ -7,7 +7,7 @@ by RenAir
 
 - setup + git hub
 
-- dek of 13 cards, select 8 
+- deck of 13 cards, select 8 
 
 - read the cards out (hide card)
 
